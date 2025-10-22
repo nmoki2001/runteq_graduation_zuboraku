@@ -41,3 +41,14 @@
 - データベース（MySQL / PostgreSQLなど）
 - デプロイ先（Heroku / Renderなど）
 - 使用予定のライブラリ（Devise / Omniauth / oauthlibなど）
+| 項目 | 内容 |
+|------|--------------------|
+| フレームワーク | Ruby on Rails |
+| DB | SQLite（開発用） → MySQL |
+| デプロイ | Render / Fly.io / Heroku（無料枠かつ Rails と相性◎） |
+| 認証 | Devise または Sorcery |
+| AI連携 | OpenAI API |
+| UI | Rails標準（Turbo/Stimulus） or Tailwind CSS |
+| 分析処理 | Ruby内で簡易集計 / AI側に詳細分析を委譲（JSON形式で投入） |
+
+
