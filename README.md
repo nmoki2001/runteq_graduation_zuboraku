@@ -39,7 +39,7 @@
 |------|--------------------|
 | フレームワーク | Ruby on Rails |
 | DB | SQLite（開発用） → MySQL |
-| デプロイ | Render / Fly.io / Heroku（無料枠かつ Rails と相性◎） |
+| デプロイ | Render |
 | 認証 | Devise または Sorcery |
 | AI連携 | OpenAI API |
 | UI | Rails標準（Turbo/Stimulus） or Tailwind CSS |
